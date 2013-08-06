@@ -1,9 +1,8 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
-
 runtime! debian.vim
-
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+call pathogen#helptags()
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
@@ -53,3 +52,5 @@ set autoindent
 set backspace=indent,eol,start
 set shiftround
 
+
+nmap <leader>l :set list!<CR>
