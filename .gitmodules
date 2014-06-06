@@ -28,3 +28,24 @@
 [submodule "bundle/omnicomplete"]
 	path = bundle/omnicomplete
 	url = https://github.com/vim-scripts/OmniCppComplete.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/a_plugin"]
+	path = bundle/a_plugin
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/cscope"]
+	path = bundle/cscope
+	url = https://github.com/vim-scripts/cscope.vim.git
+[submodule "bundle/ctags"]
+	path = bundle/ctags
+	url = https://github.com/vim-scripts/ctags.vim.git
+[submodule "bundle/refactor"]
+	path = bundle/refactor
+	url = https://github.com/vim-scripts/refactor.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
