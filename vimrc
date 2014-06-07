@@ -2,6 +2,7 @@
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#infect()
+execute pathogen#infect()
 call pathogen#helptags()
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
@@ -61,5 +62,5 @@ let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
 let g:solarized_visibility="high"
-colorscheme solarized
+"colorscheme solarized"
 let g:SuperTabDefaultCompletionType = "context"

@@ -49,3 +49,9 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/mw_utils"]
+	path = bundle/mw_utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = https://github.com/tomtom/tlib_vim.git
