@@ -1,6 +1,10 @@
 dotvim
 ======
 
+DEPRECATED 
+
+use: https://github.com/MeirKriheli/dotvim
+
 Vim configuration
 
 git clone https://github.com/clement91190/dotvim.git 
